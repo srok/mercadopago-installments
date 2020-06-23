@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body ng-app="MPinstallments" ng-cloak>
+  <div class="row" ng-controller="ListCtrl">
+    <div class="col">
+      <ul rn-carousel rn-carousel-controls rn-carousel-duration="500" style="height: 100px">
+        
+          <li ng-repeat="item in payment_methods" ng-if="item.payment_type_id == 'credit_card'"  ng-click="installments($index)">
+           <img width="60" src="{{item.thumbnail}}"> {{item.name}}
+         </li>
+        <!--  <li>
+           <div class="collapse" id="collapseExample{{$index}}">
+            <div class="card card-body">
+              <ul>
+               <ng-container >
+                <select>
+                  <optgroup ng-repeat="installmentGroup in item.installments" label=" Hasta {{$index}} sin interés" >
+                    
+                    <option  ng-click="selectInstallment(installment)" ng-repeat="installment in installmentGroup">{{installment.issuer.name}}</option>
+                  </optgroup>
+               
+                </select>
+              </ng-container>
+            </ul>
+          </div>
+        </div>
+      </li> -->
+      
+
+  </ul>
+</div>
+<div class="col">
+  <ul>
+    <li ng-repeat="costs in selectedInstallment.payer_costs" ng-click="selectPayerCost(costs)">
+      <input type="radio" name="cost" id="cost{{$index}}"> 
+      <label for="cost{{$index}}">{{costs.recommended_message}}</label>
+      
+    </li>
+  </ul>
+  <div>
+    <span>TEA: {{selectedPayerCost.labels | tea}}</span>
+    <span>CFT: {{selectedPayerCost.labels | cft}}</span>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha256-23hi0Ag650tclABdGCdMNSjxvikytyQ44vYGo9HyOrU=" crossorigin="anonymous"></script>
+<script
+src="https://code.jquery.com/jquery-3.5.1.slim.js"
+integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="js/directives.js"></script> -->
+
+<link rel="stylesheet" type="text/css" href="js/angular-carousel/angular-carousel.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-touch.min.js"></script>
+
+<script type="text/javascript" src="js/angular-carousel/angular-carousel.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/services.js"></script>
+
+
+
+</body>
+</html>
+

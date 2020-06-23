@@ -1,0 +1,4108 @@
+[
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "1",
+            "name": "Visa Argentina S.A.",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/visa.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/visa.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "288",
+            "name": "Tarjeta Shopping",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/288.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/288.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "1005",
+            "name": "Provencred",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/1005.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/1005.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "272",
+            "name": "Banco Comafi",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/272.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/272.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "294",
+            "name": "Banco Hipotecario",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/294.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/294.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "1026",
+            "name": "Banco Industrial",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/1026.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/1026.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "282",
+            "name": "Banco Nacion",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/282.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/282.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 18.14,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_175,76%|TEA_133,51%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 393,80 ($ 1.181,40)",
+                "installment_amount": 393.8,
+                "total_amount": 1181.4,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 31.45,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_163,83%|TEA_125,95%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 219,08 ($ 1.314,48)",
+                "installment_amount": 219.08,
+                "total_amount": 1314.48,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 60.49,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_156,09%|TEA_121,81%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 133,74 ($ 1.604,88)",
+                "installment_amount": 133.74,
+                "total_amount": 1604.88,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 94.37,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_156,69%|TEA_123,36%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 107,98 ($ 1.943,64)",
+                "installment_amount": 107.98,
+                "total_amount": 1943.64,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "303",
+            "name": "Banco Patagonia",
+            "secure_thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/7a784590-579b-11e8-9526-7311e82cafd4-m@2x.png",
+            "thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/7a784590-579b-11e8-9526-7311e82cafd4-m@2x.png"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "326",
+            "name": "HSBC",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/326.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/326.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "338",
+            "name": "ICBC",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/338.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/338.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "297",
+            "name": "Macro",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/297.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/297.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "279",
+            "name": "Banco Galicia",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/279.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/279.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 18.14,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_175,76%|TEA_133,51%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 393,80 ($ 1.181,40)",
+                "installment_amount": 393.8,
+                "total_amount": 1181.4,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 31.45,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_163,83%|TEA_125,95%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 219,08 ($ 1.314,48)",
+                "installment_amount": 219.08,
+                "total_amount": 1314.48,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 45.97,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_160,79%|TEA_124,58%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 162,19 ($ 1.459,71)",
+                "installment_amount": 162.19,
+                "total_amount": 1459.71,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 60.49,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_156,09%|TEA_121,81%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 133,74 ($ 1.604,88)",
+                "installment_amount": 133.74,
+                "total_amount": 1604.88,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 94.37,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_156,69%|TEA_123,36%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 107,98 ($ 1.943,64)",
+                "installment_amount": 107.98,
+                "total_amount": 1943.64,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "287",
+            "name": "Banco Santa Cruz",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/287.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/287.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "296",
+            "name": "Itau",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/296.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/296.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "331",
+            "name": "Nuevo Banco de Entre Rios",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/331.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/331.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "333",
+            "name": "Nuevo Banco de Santa Fe",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/333.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/333.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "1016",
+            "name": "Banco Ciudad",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/1016.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/1016.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 0,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 2,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 36.3,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_82,04%|TEA_65,48%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 113,58 ($ 1.362,96)",
+                "installment_amount": 113.58,
+                "total_amount": 1362.96,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 24,
+                "installment_rate": 76.2,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_82,39%|TEA_66,57%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 3,
+                "max_allowed_amount": 700000,
+                "recommended_message": "24 cuotas de $ 73,42 ($ 1.762,08)",
+                "installment_amount": 73.42,
+                "total_amount": 1762.08,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 36,
+                "installment_rate": 115,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_77,63%|TEA_63,34%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 3,
+                "max_allowed_amount": 700000,
+                "recommended_message": "36 cuotas de $ 59,72 ($ 2.149,92)",
+                "installment_amount": 59.72,
+                "total_amount": 2149.92,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "286",
+            "name": "Banco San Juan",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/286.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/286.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "313",
+            "name": "Banco Supervielle",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/313.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/313.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "310",
+            "name": "Banco Santander",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/310.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/310.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "316",
+            "name": "BBVA",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/316.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/316.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 18.14,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_175,76%|TEA_133,51%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 393,80 ($ 1.181,40)",
+                "installment_amount": 393.8,
+                "total_amount": 1181.4,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 31.45,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_163,83%|TEA_125,95%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 219,08 ($ 1.314,48)",
+                "installment_amount": 219.08,
+                "total_amount": 1314.48,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 45.97,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_160,79%|TEA_124,58%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 162,19 ($ 1.459,71)",
+                "installment_amount": 162.19,
+                "total_amount": 1459.71,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 60.49,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_156,09%|TEA_121,81%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 133,74 ($ 1.604,88)",
+                "installment_amount": 133.74,
+                "total_amount": 1604.88,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 94.37,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_156,69%|TEA_123,36%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 107,98 ($ 1.943,64)",
+                "installment_amount": 107.98,
+                "total_amount": 1943.64,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "1043",
+            "name": "Tucuman",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/1043.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/1043.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "1044",
+            "name": "Banco Provincia",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/1044.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/1044.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "1049",
+            "name": "Banco de La Pampa",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/1049.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/1049.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "2033",
+            "name": "Banco Bica",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/2033.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/2033.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "2040",
+            "name": "Fueguina",
+            "secure_thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/3ddfc980-1c27-11ea-a523-6bfcaf159b9c-l@2x.png",
+            "thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/3ddfc980-1c27-11ea-a523-6bfcaf159b9c-l@2x.png"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 0,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 2,
+                "max_allowed_amount": 250000,
+                "recommended_message": "3 cuotas de $ 333,33 ($ 1.000,00)",
+                "installment_amount": 333.33,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "10002",
+            "name": "Banco Columbia",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/10002.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/10002.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "10004",
+            "name": "Banco Municipal",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/10004.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/10004.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "10005",
+            "name": "Banco Saenz",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/10005.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/10005.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "12355",
+            "name": "Efectivo Si",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/12355.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/12355.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "12366",
+            "name": "Comafi Chicas",
+            "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/12366.gif",
+            "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/12366.gif"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 16.93,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_158,80%|TEA_121,31%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "3 cuotas de $ 389,77 ($ 1.169,31)",
+                "installment_amount": 389.77,
+                "total_amount": 1169.31,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "12385",
+            "name": "Banco Coinag",
+            "secure_thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/8300f480-afda-11e9-826d-3b99bc547094-l@2x.png",
+            "thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/8300f480-afda-11e9-826d-3b99bc547094-l@2x.png"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 2,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 5,
+                "max_allowed_amount": 600000,
+                "recommended_message": "3 cuotas de $ 333,33 ($ 1.000,00)",
+                "installment_amount": 333.33,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 29.03,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_146,45%|TEA_113,21%",
+                    "recommended_interest_installment_with_some_banks"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 3,
+                "max_allowed_amount": 700000,
+                "recommended_message": "6 cuotas de $ 215,05 ($ 1.290,30)",
+                "installment_amount": 215.05,
+                "total_amount": 1290.3000000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    },
+    {
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "issuer": {
+            "id": "12432",
+            "name": "HSBC Access Now",
+            "secure_thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/d41f80d0-af11-11e9-b872-f9cdde9240f0-l@2x.png",
+            "thumbnail": "https://http2.mlstatic.com/storage/logos-api-admin/d41f80d0-af11-11e9-b872-f9cdde9240f0-l@2x.png"
+        },
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "payer_costs": [
+            {
+                "installments": 1,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "1 cuota de $ 1.000,00 ($ 1.000,00)",
+                "installment_amount": 1000,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 3,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 250000,
+                "recommended_message": "3 cuotas de $ 333,33 ($ 1.000,00)",
+                "installment_amount": 333.33,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 6,
+                "installment_rate": 0,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "recommended_installment",
+                    "CFT_0,00%|TEA_0,00%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 250000,
+                "recommended_message": "6 cuotas de $ 166,67 ($ 1.000,00)",
+                "installment_amount": 166.67,
+                "total_amount": 1000,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 9,
+                "installment_rate": 41.13,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_138,35%|TEA_107,91%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "9 cuotas de $ 156,81 ($ 1.411,29)",
+                "installment_amount": 156.81,
+                "total_amount": 1411.29,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 12,
+                "installment_rate": 54.44,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_135,92%|TEA_106,66%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "12 cuotas de $ 128,70 ($ 1.544,40)",
+                "installment_amount": 128.7,
+                "total_amount": 1544.3999999999999,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            },
+            {
+                "installments": 18,
+                "installment_rate": 83.48,
+                "discount_rate": 0,
+                "reimbursement_rate": null,
+                "labels": [
+                    "CFT_134,20%|TEA_106,27%"
+                ],
+                "installment_rate_collector": [
+                    "MERCADOPAGO"
+                ],
+                "min_allowed_amount": 1,
+                "max_allowed_amount": 700000,
+                "recommended_message": "18 cuotas de $ 101,93 ($ 1.834,74)",
+                "installment_amount": 101.93,
+                "total_amount": 1834.7400000000002,
+                "payment_method_option_id": "1.AQokZmVhZjhhZDUtNjI2MC00MGQ3LThhYjUtMDIwNDg1ZWIzMzU1EO-q7OmsLg"
+            }
+        ],
+        "agreements": null
+    }
+]
