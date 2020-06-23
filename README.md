@@ -1,2 +1,2 @@
 # mercadopago-installments
-Mercadopago installments calculator. Angularjs implementatio.
+Mercadopago installments calculator. Angularjs implementation.
